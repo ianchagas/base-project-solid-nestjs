@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  database:
+    image: postgres
+    container_name: NewProjectDB
+    restart: always
+    ports:
+      - 5438:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=newproject
+    volumes:
+      - pgdata:/data/postgres
+volumes:
+  pgdata:
+    driver: local

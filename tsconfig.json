@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@shared/shared": [
+        "libs/shared/src"
+      ],
+      "@shared/shared/*": [
+        "libs/shared/src/*"
+      ],
+      "@user/user": [
+        "libs/user/src"
+      ],
+      "@user/user/*": [
+        "libs/user/src/*"
+      ],
+      "@people/people": [
+        "libs/people/src"
+      ],
+      "@people/people/*": [
+        "libs/people/src/*"
+      ],
+      "@address/address": [
+        "libs/address/src"
+      ],
+      "@address/address/*": [
+        "libs/address/src/*"
+      ],
+      "@unit_of_measurement/unit-of-measurement": [
+        "libs/unit-of-measurement/src"
+      ],
+      "@unit_of_measurement/unit-of-measurement/*": [
+        "libs/unit-of-measurement/src/*"
+      ],
+      "@category/category": [
+        "libs/category/src"
+      ],
+      "@category/category/*": [
+        "libs/category/src/*"
+      ],
+      "@deposit/deposit": [
+        "libs/deposit/src"
+      ],
+      "@deposit/deposit/*": [
+        "libs/deposit/src/*"
+      ],
+      "@product/product": [
+        "libs/product/src"
+      ],
+      "@product/product/*": [
+        "libs/product/src/*"
+      ],
+      "@inventory/inventory": [
+        "libs/inventory/src"
+      ],
+      "@inventory/inventory/*": [
+        "libs/inventory/src/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@shared/shared/(.*)": "<rootDir>/../libs/shared/src/$1",
+    "@shared/shared": "<rootDir>/../libs/shared/src",
+    "@people/people/(.*)": "<rootDir>/../libs/people/src/$1",
+    "@people/people": "<rootDir>/../libs/people/src",
+    "@address/address/(.*)": "<rootDir>/../libs/address/src/$1",
+    "@address/address": "<rootDir>/../libs/address/src"
+  }
+}

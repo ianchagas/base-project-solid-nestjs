@@ -1,0 +1,42 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "shared": {
+      "type": "library",
+      "root": "libs/shared",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/tsconfig.lib.json"
+      }
+    },
+    "compilerOptions": {
+      "webpack": true,
+      "plugins": [
+        "@nestjs/swagger/plugin"
+      ]
+    },
+    "people": {
+      "type": "library",
+      "root": "libs/people",
+      "entryFile": "index",
+      "sourceRoot": "libs/people/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/people/tsconfig.lib.json"
+      }
+    },
+    "address": {
+      "type": "library",
+      "root": "libs/address",
+      "entryFile": "index",
+      "sourceRoot": "libs/address/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/address/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
