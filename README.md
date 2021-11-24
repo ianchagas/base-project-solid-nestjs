@@ -18,6 +18,11 @@ $ yarn
 ```
 
 ## Running the app
+      
+```bash
+# running docker
+$ docker-compose up -d
+```
 
 ```bash
 # development
