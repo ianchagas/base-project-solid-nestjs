@@ -18,7 +18,7 @@ $ yarn
 ```
       
 ## Insomnia collection
-      Import file <b>InsomniaCollection.json</b> for testing manually
+      Import file InsomniaCollection.json for testing manually
 
 ## Running the app
       
@@ -35,10 +35,6 @@ $ yarn start
 # watch mode
 $ npm run start:dev
 $ yarn start:dev
-
-# production mode
-$ npm run start:prod
-$ yarn start:prod
 ```
 
 ## Test
