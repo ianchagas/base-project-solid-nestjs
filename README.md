@@ -44,14 +44,6 @@ $ yarn start:prod
 # unit tests
 $ npm run test
 $ yarn test
-
-# e2e tests
-$ npm run test:e2e
-$ yarn test:e2e
-
-# test coverage
-$ npm run test:cov
-$ yarn test:cov
 ```
 
 ## Create new Library
@@ -65,7 +57,7 @@ $ yarn nest g library namelibrary
 $ @namelibrary
 ```
 
-## Stay in touch
+## Contacts
 
 - Author - [Ian Chagas Salgado](https://github.com/ianchagas)
 - LinkedIn - [https://www.linkedin.com/in/ian-chagas-salgado-763a82166/](https://www.linkedin.com/in/ian-chagas-salgado-763a82166/)
