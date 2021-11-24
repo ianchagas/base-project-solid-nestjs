@@ -16,6 +16,9 @@ $ npm install
 or
 $ yarn
 ```
+      
+## Insomnia collection
+      Import file <b>InsomniaCollection.json</b> for testing manually
 
 ## Running the app
       
