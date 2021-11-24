@@ -7,7 +7,7 @@
 
 ## Description
 
-I'm using [Nest](https://github.com/nestjs/nest) framework TypeScript.
+I'm using [Nest](https://github.com/nestjs/nest) framework TypeScript, [TypeORM](https://typeorm.io), and Dockerize [Postgres](https://hub.docker.com/_/postgres)
 
 ## Installation
 
